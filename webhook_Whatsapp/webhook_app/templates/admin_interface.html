@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Interface</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e9f9e9; /* Light green */
+            color: #1b5e20; /* Dark green */
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 20px;
+            background: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        h1, h2 {
+            color: #1b5e20; /* Dark green */
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+            border: 1px solid #b9e4c9; /* Light green border */
+        }
+
+        table th, table td {
+            padding: 10px;
+            text-align: left;
+            border: 1px solid #b9e4c9; /* Light green border */
+        }
+
+        table th {
+            background-color: #a5d6a7; /* Light green */
+            color: #1b5e20; /* Dark green */
+        }
+
+        form {
+            margin-bottom: 20px;
+        }
+
+        form label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        form input, form textarea, form button, form select {
+            width: 100%;
+            margin-bottom: 10px;
+            padding: 10px;
+            border: 1px solid #b9e4c9; /* Light green border */
+            border-radius: 4px;
+            background-color: #f1f8e9; /* Very light green background */
+        }
+
+        form button {
+            background-color: #388e3c; /* Dark green */
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        form button:hover {
+            background-color: #2e7d32; /* Slightly darker green for hover */
+        }
+
+        #message-response {
+            margin-top: 10px;
+            color: #388e3c; /* Dark green */
+        }
+
+        #status-container {
+            padding: 10px;
+            background-color: #f1f8e9; /* Very light green */
+            border-radius: 4px;
+            border: 1px solid #b9e4c9; /* Light green border */
+        }
+
+        tr:nth-child(even) {
+            background-color: #e9f9e9; /* Alternating row background (light green) */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Messaging Admin Interface</h1>
+
+        <!-- Send Test Message -->
+        <section>
+            <h2>Send a message</h2>
+            <form method="post" action="{% url 'reply_to_user' %}">
+                {% csrf_token %}
+                <label for="receiver">Receivers:</label>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Mobile Number</th>
+                            <th>Select</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for message in mobile_dict %}
+                        <tr>
+                            <td>{{ message.mobile_no }}</td>
+                            <td>
+                                <input type="checkbox" name="mobile" value="{{ message.mobile_no }}">
+                            </td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+
+                <label for="content">Message:</label>
+                <textarea name="msg" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+
+        <!-- View Messages -->
+        <section>
+            <h2>View messages</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Sender</th>
+                        <th>Receiver</th>
+                        <th>Content</th>
+                        <th>Timestamp</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for message in messages %}
+                    <tr>
+                        <td>{{ message.sender }}</td>
+                        <td>{{ message.receiver }}</td>
+                        <td>{{ message.content }}</td>
+                        <td>{{ message.timestamp }}</td>
+                        <td>{{ message.status }}</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Monitor Message Status -->
+        <section>
+            <h2>Monitor Message Status</h2>
+            <div id="status-container">
+                <!-- Status updates will be dynamically inserted here -->
+            </div>
+        </section>
+    </div>
+</body>
+</html>

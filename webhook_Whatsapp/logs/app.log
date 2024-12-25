@@ -1,0 +1,740 @@
+2024-12-25 18:45:34,551 - webhook_app.service - ERROR - Failed to send message
+2024-12-25 18:47:03,282 - webhook_app.service - ERROR - Failed to send message
+2024-12-25 18:57:50,357 - webhook_app.service - ERROR - Failed to send message
+2024-12-25 18:57:50,438 - webhook_app.views - ERROR - Error in processing incoming message
+Traceback (most recent call last):
+  File "D:\Webhook3\webhook_Whatsapp\webhook_app\views.py", line 53, in webhook
+    logger.info(f"Recieved message data: {json.dump(data, indent=2)}")
+TypeError: dump() missing 1 required positional argument: 'fp'
+2024-12-25 18:57:50,780 - webhook_app.views - ERROR - Error in processing incoming message
+Traceback (most recent call last):
+  File "D:\Webhook3\webhook_Whatsapp\webhook_app\views.py", line 53, in webhook
+    logger.info(f"Recieved message data: {json.dump(data, indent=2)}")
+TypeError: dump() missing 1 required positional argument: 'fp'
+2024-12-25 18:57:51,321 - webhook_app.views - ERROR - Error in processing incoming message
+Traceback (most recent call last):
+  File "D:\Webhook3\webhook_Whatsapp\webhook_app\views.py", line 53, in webhook
+    logger.info(f"Recieved message data: {json.dump(data, indent=2)}")
+TypeError: dump() missing 1 required positional argument: 'fp'
+2024-12-25 18:57:51,378 - webhook_app.views - ERROR - Error in processing incoming message
+Traceback (most recent call last):
+  File "D:\Webhook3\webhook_Whatsapp\webhook_app\views.py", line 53, in webhook
+    logger.info(f"Recieved message data: {json.dump(data, indent=2)}")
+TypeError: dump() missing 1 required positional argument: 'fp'
+2024-12-25 18:57:51,648 - webhook_app.views - ERROR - Error in processing incoming message
+Traceback (most recent call last):
+  File "D:\Webhook3\webhook_Whatsapp\webhook_app\views.py", line 53, in webhook
+    logger.info(f"Recieved message data: {json.dump(data, indent=2)}")
+TypeError: dump() missing 1 required positional argument: 'fp'
+2024-12-25 18:57:51,772 - webhook_app.views - ERROR - Error in processing incoming message
+Traceback (most recent call last):
+  File "D:\Webhook3\webhook_Whatsapp\webhook_app\views.py", line 53, in webhook
+    logger.info(f"Recieved message data: {json.dump(data, indent=2)}")
+TypeError: dump() missing 1 required positional argument: 'fp'
+2024-12-25 18:57:52,127 - webhook_app.views - ERROR - Error in processing incoming message
+Traceback (most recent call last):
+  File "D:\Webhook3\webhook_Whatsapp\webhook_app\views.py", line 53, in webhook
+    logger.info(f"Recieved message data: {json.dump(data, indent=2)}")
+TypeError: dump() missing 1 required positional argument: 'fp'
+2024-12-25 18:57:52,129 - webhook_app.views - ERROR - Error in processing incoming message
+Traceback (most recent call last):
+  File "D:\Webhook3\webhook_Whatsapp\webhook_app\views.py", line 53, in webhook
+    logger.info(f"Recieved message data: {json.dump(data, indent=2)}")
+TypeError: dump() missing 1 required positional argument: 'fp'
+2024-12-25 18:57:52,489 - webhook_app.views - ERROR - Error in processing incoming message
+Traceback (most recent call last):
+  File "D:\Webhook3\webhook_Whatsapp\webhook_app\views.py", line 53, in webhook
+    logger.info(f"Recieved message data: {json.dump(data, indent=2)}")
+TypeError: dump() missing 1 required positional argument: 'fp'
+2024-12-25 18:57:52,491 - webhook_app.views - ERROR - Error in processing incoming message
+Traceback (most recent call last):
+  File "D:\Webhook3\webhook_Whatsapp\webhook_app\views.py", line 53, in webhook
+    logger.info(f"Recieved message data: {json.dump(data, indent=2)}")
+TypeError: dump() missing 1 required positional argument: 'fp'
+2024-12-25 18:57:53,083 - webhook_app.views - ERROR - Error in processing incoming message
+Traceback (most recent call last):
+  File "D:\Webhook3\webhook_Whatsapp\webhook_app\views.py", line 53, in webhook
+    logger.info(f"Recieved message data: {json.dump(data, indent=2)}")
+TypeError: dump() missing 1 required positional argument: 'fp'
+2024-12-25 18:57:53,317 - webhook_app.views - ERROR - Error in processing incoming message
+Traceback (most recent call last):
+  File "D:\Webhook3\webhook_Whatsapp\webhook_app\views.py", line 53, in webhook
+    logger.info(f"Recieved message data: {json.dump(data, indent=2)}")
+TypeError: dump() missing 1 required positional argument: 'fp'
+2024-12-25 18:57:54,544 - webhook_app.views - ERROR - Error in processing incoming message
+Traceback (most recent call last):
+  File "D:\Webhook3\webhook_Whatsapp\webhook_app\views.py", line 53, in webhook
+    logger.info(f"Recieved message data: {json.dump(data, indent=2)}")
+TypeError: dump() missing 1 required positional argument: 'fp'
+2024-12-25 18:57:54,794 - webhook_app.views - ERROR - Error in processing incoming message
+Traceback (most recent call last):
+  File "D:\Webhook3\webhook_Whatsapp\webhook_app\views.py", line 53, in webhook
+    logger.info(f"Recieved message data: {json.dump(data, indent=2)}")
+TypeError: dump() missing 1 required positional argument: 'fp'
+2024-12-25 18:57:55,495 - webhook_app.views - ERROR - Error in processing incoming message
+Traceback (most recent call last):
+  File "D:\Webhook3\webhook_Whatsapp\webhook_app\views.py", line 53, in webhook
+    logger.info(f"Recieved message data: {json.dump(data, indent=2)}")
+TypeError: dump() missing 1 required positional argument: 'fp'
+2024-12-25 18:57:55,509 - webhook_app.views - ERROR - Error in processing incoming message
+Traceback (most recent call last):
+  File "D:\Webhook3\webhook_Whatsapp\webhook_app\views.py", line 53, in webhook
+    logger.info(f"Recieved message data: {json.dump(data, indent=2)}")
+TypeError: dump() missing 1 required positional argument: 'fp'
+2024-12-25 18:58:19,177 - webhook_app.views - ERROR - Error in processing incoming message
+Traceback (most recent call last):
+  File "D:\Webhook3\webhook_Whatsapp\webhook_app\views.py", line 53, in webhook
+    logger.info(f"Recieved message data: {json.dump(data, indent=2)}")
+TypeError: dump() missing 1 required positional argument: 'fp'
+2024-12-25 18:58:21,790 - webhook_app.views - ERROR - Error in processing incoming message
+Traceback (most recent call last):
+  File "D:\Webhook3\webhook_Whatsapp\webhook_app\views.py", line 53, in webhook
+    logger.info(f"Recieved message data: {json.dump(data, indent=2)}")
+TypeError: dump() missing 1 required positional argument: 'fp'
+2024-12-25 18:58:22,626 - webhook_app.views - ERROR - Error in processing incoming message
+Traceback (most recent call last):
+  File "D:\Webhook3\webhook_Whatsapp\webhook_app\views.py", line 53, in webhook
+    logger.info(f"Recieved message data: {json.dump(data, indent=2)}")
+TypeError: dump() missing 1 required positional argument: 'fp'
+2024-12-25 18:58:22,945 - webhook_app.views - ERROR - Error in processing incoming message
+Traceback (most recent call last):
+  File "D:\Webhook3\webhook_Whatsapp\webhook_app\views.py", line 53, in webhook
+    logger.info(f"Recieved message data: {json.dump(data, indent=2)}")
+TypeError: dump() missing 1 required positional argument: 'fp'
+2024-12-25 18:58:59,126 - webhook_app.service - ERROR - Failed to send message
+2024-12-25 19:02:45,386 - webhook_app.views - INFO - Calling send_message function asynchronously
+2024-12-25 19:02:45,387 - webhook_app.views - INFO - Preparing to send message to: 919322015008
+2024-12-25 19:02:45,387 - webhook_app.views - INFO - Preparing to send message to: 918265057464
+2024-12-25 19:02:45,388 - webhook_app.service - INFO - Sending message to 919322015008: good evening
+2024-12-25 19:02:45,580 - webhook_app.service - INFO - Sending message to 918265057464: good evening
+2024-12-25 19:02:45,819 - webhook_app.service - ERROR - Failed to send message: {"error":{"message":"Error validating access token: Session has expired on Wednesday, 25-Dec-24 02:00:00 PST. The current time is Wednesday, 25-Dec-24 05:32:45 PST.","type":"OAuthException","code":190,"error_subcode":463,"fbtrace_id":"Avtgcy6kE0x_oalNBnM1_KW"}}
+2024-12-25 19:02:45,840 - webhook_app.service - ERROR - Failed to send message: {"error":{"message":"Error validating access token: Session has expired on Wednesday, 25-Dec-24 02:00:00 PST. The current time is Wednesday, 25-Dec-24 05:32:45 PST.","type":"OAuthException","code":190,"error_subcode":463,"fbtrace_id":"AmZ7AHSrluQLBc18s4jdjeD"}}
+2024-12-25 19:02:45,840 - webhook_app.views - ERROR - Failed to send message to 919322015008: {'error': {'message': 'Error validating access token: Session has expired on Wednesday, 25-Dec-24 02:00:00 PST. The current time is Wednesday, 25-Dec-24 05:32:45 PST.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 463, 'fbtrace_id': 'Avtgcy6kE0x_oalNBnM1_KW'}}
+2024-12-25 19:03:29,621 - webhook_app.views - INFO - Calling send_message function asynchronously
+2024-12-25 19:03:29,622 - webhook_app.views - INFO - Preparing to send message to: 919322015008
+2024-12-25 19:03:29,623 - webhook_app.views - INFO - Preparing to send message to: 918265057464
+2024-12-25 19:03:29,623 - webhook_app.service - INFO - Sending message to 919322015008: good evening everyone
+2024-12-25 19:03:29,753 - webhook_app.service - ERROR - An error occurred while sending the message.
+Traceback (most recent call last):
+  File "D:\Webhook3\venv\lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "D:\Webhook3\venv\lib\site-packages\httpx\_transports\default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+  File "D:\Webhook3\venv\lib\site-packages\httpcore\_async\connection_pool.py", line 207, in handle_async_request
+    raise UnsupportedProtocol(
+httpcore.UnsupportedProtocol: Request URL is missing an 'http://' or 'https://' protocol.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Webhook3\webhook_Whatsapp\webhook_app\service.py", line 57, in send_message
+    response = await client.post(self.BASE_URL, json=payload, headers=self.headers)
+  File "D:\Webhook3\venv\lib\site-packages\httpx\_client.py", line 1859, in post
+    return await self.request(
+  File "D:\Webhook3\venv\lib\site-packages\httpx\_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+  File "D:\Webhook3\venv\lib\site-packages\httpx\_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+  File "D:\Webhook3\venv\lib\site-packages\httpx\_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+  File "D:\Webhook3\venv\lib\site-packages\httpx\_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+  File "D:\Webhook3\venv\lib\site-packages\httpx\_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+  File "D:\Webhook3\venv\lib\site-packages\httpx\_transports\default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+  File "C:\Users\Jaydeep Biswas\AppData\Local\Programs\Python\Python310\lib\contextlib.py", line 153, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "D:\Webhook3\venv\lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.UnsupportedProtocol: Request URL is missing an 'http://' or 'https://' protocol.
+2024-12-25 19:03:29,779 - webhook_app.service - INFO - Sending message to 918265057464: good evening everyone
+2024-12-25 19:03:29,791 - webhook_app.service - ERROR - An error occurred while sending the message.
+Traceback (most recent call last):
+  File "D:\Webhook3\venv\lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "D:\Webhook3\venv\lib\site-packages\httpx\_transports\default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+  File "D:\Webhook3\venv\lib\site-packages\httpcore\_async\connection_pool.py", line 207, in handle_async_request
+    raise UnsupportedProtocol(
+httpcore.UnsupportedProtocol: Request URL is missing an 'http://' or 'https://' protocol.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Webhook3\webhook_Whatsapp\webhook_app\service.py", line 57, in send_message
+    response = await client.post(self.BASE_URL, json=payload, headers=self.headers)
+  File "D:\Webhook3\venv\lib\site-packages\httpx\_client.py", line 1859, in post
+    return await self.request(
+  File "D:\Webhook3\venv\lib\site-packages\httpx\_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+  File "D:\Webhook3\venv\lib\site-packages\httpx\_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+  File "D:\Webhook3\venv\lib\site-packages\httpx\_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+  File "D:\Webhook3\venv\lib\site-packages\httpx\_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+  File "D:\Webhook3\venv\lib\site-packages\httpx\_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+  File "D:\Webhook3\venv\lib\site-packages\httpx\_transports\default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+  File "C:\Users\Jaydeep Biswas\AppData\Local\Programs\Python\Python310\lib\contextlib.py", line 153, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "D:\Webhook3\venv\lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.UnsupportedProtocol: Request URL is missing an 'http://' or 'https://' protocol.
+2024-12-25 19:03:29,795 - webhook_app.views - ERROR - Failed to send message to 919322015008: {'error': "Request URL is missing an 'http://' or 'https://' protocol."}
+2024-12-25 19:04:31,825 - webhook_app.views - INFO - Calling send_message function asynchronously
+2024-12-25 19:04:31,826 - webhook_app.views - INFO - Preparing to send message to: 918265057464
+2024-12-25 19:04:31,826 - webhook_app.service - INFO - Sending message to 918265057464: good evening everyone
+2024-12-25 19:04:31,940 - webhook_app.service - ERROR - An error occurred while sending the message.
+Traceback (most recent call last):
+  File "D:\Webhook3\venv\lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "D:\Webhook3\venv\lib\site-packages\httpx\_transports\default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+  File "D:\Webhook3\venv\lib\site-packages\httpcore\_async\connection_pool.py", line 207, in handle_async_request
+    raise UnsupportedProtocol(
+httpcore.UnsupportedProtocol: Request URL is missing an 'http://' or 'https://' protocol.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Webhook3\webhook_Whatsapp\webhook_app\service.py", line 57, in send_message
+    response = await client.post(self.BASE_URL, json=payload, headers=self.headers)
+  File "D:\Webhook3\venv\lib\site-packages\httpx\_client.py", line 1859, in post
+    return await self.request(
+  File "D:\Webhook3\venv\lib\site-packages\httpx\_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+  File "D:\Webhook3\venv\lib\site-packages\httpx\_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+  File "D:\Webhook3\venv\lib\site-packages\httpx\_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+  File "D:\Webhook3\venv\lib\site-packages\httpx\_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+  File "D:\Webhook3\venv\lib\site-packages\httpx\_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+  File "D:\Webhook3\venv\lib\site-packages\httpx\_transports\default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+  File "C:\Users\Jaydeep Biswas\AppData\Local\Programs\Python\Python310\lib\contextlib.py", line 153, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "D:\Webhook3\venv\lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.UnsupportedProtocol: Request URL is missing an 'http://' or 'https://' protocol.
+2024-12-25 19:04:31,945 - webhook_app.views - ERROR - Failed to send message to 918265057464: {'error': "Request URL is missing an 'http://' or 'https://' protocol."}
+2024-12-25 19:04:45,313 - webhook_app.views - INFO - Received message data: {
+  "object": "whatsapp_business_account",
+  "entry": [
+    {
+      "id": "516347191559718",
+      "changes": [
+        {
+          "value": {
+            "messaging_product": "whatsapp",
+            "metadata": {
+              "display_phone_number": "15551708236",
+              "phone_number_id": "552952211226957"
+            },
+            "statuses": [
+              {
+                "id": "wamid.HBgMOTE4MjY1MDU3NDY0FQIAERgSNDM2QTRFMUNGOEQ1QTM2QzJGAA==",
+                "status": "sent",
+                "timestamp": "1735133269",
+                "recipient_id": "918265057464",
+                "conversation": {
+                  "id": "74a36a297f0d5f87b245a3b39a7a4e13",
+                  "expiration_timestamp": "1735219680",
+                  "origin": {
+                    "type": "service"
+                  }
+                },
+                "pricing": {
+                  "billable": true,
+                  "pricing_model": "CBP",
+                  "category": "service"
+                }
+              }
+            ]
+          },
+          "field": "messages"
+        }
+      ]
+    }
+  ]
+}
+2024-12-25 19:05:31,170 - webhook_app.views - INFO - Received message data: {
+  "object": "whatsapp_business_account",
+  "entry": [
+    {
+      "id": "516347191559718",
+      "changes": [
+        {
+          "value": {
+            "messaging_product": "whatsapp",
+            "metadata": {
+              "display_phone_number": "15551708236",
+              "phone_number_id": "552952211226957"
+            },
+            "statuses": [
+              {
+                "id": "wamid.HBgMOTE5MzIyMDE1MDA4FQIAERgSMzUwNTU3RTk4RDMxMzg3RUM3AA==",
+                "status": "failed",
+                "timestamp": "1735133269",
+                "recipient_id": "919322015008",
+                "errors": [
+                  {
+                    "code": 131047,
+                    "title": "Re-engagement message",
+                    "message": "Re-engagement message",
+                    "error_data": {
+                      "details": "Message failed to send because more than 24 hours have passed since the customer last replied to this number."
+                    },
+                    "href": "https://developers.facebook.com/docs/whatsapp/cloud-api/support/error-codes/"
+                  }
+                ]
+              }
+            ]
+          },
+          "field": "messages"
+        }
+      ]
+    }
+  ]
+}
+2024-12-25 19:05:32,102 - webhook_app.views - INFO - Received message data: {
+  "object": "whatsapp_business_account",
+  "entry": [
+    {
+      "id": "516347191559718",
+      "changes": [
+        {
+          "value": {
+            "messaging_product": "whatsapp",
+            "metadata": {
+              "display_phone_number": "15551708236",
+              "phone_number_id": "552952211226957"
+            },
+            "statuses": [
+              {
+                "id": "wamid.HBgMOTE5MzIyMDE1MDA4FQIAERgSRDg2QURBNzMxQzdEODE0QTA5AA==",
+                "status": "failed",
+                "timestamp": "1735133270",
+                "recipient_id": "919322015008",
+                "errors": [
+                  {
+                    "code": 131047,
+                    "title": "Re-engagement message",
+                    "message": "Re-engagement message",
+                    "error_data": {
+                      "details": "Message failed to send because more than 24 hours have passed since the customer last replied to this number."
+                    },
+                    "href": "https://developers.facebook.com/docs/whatsapp/cloud-api/support/error-codes/"
+                  }
+                ]
+              }
+            ]
+          },
+          "field": "messages"
+        }
+      ]
+    }
+  ]
+}
+2024-12-25 19:06:29,170 - webhook_app.views - INFO - Calling send_message function asynchronously
+2024-12-25 19:06:29,196 - webhook_app.views - INFO - Preparing to send message to: 918265057464
+2024-12-25 19:06:29,197 - webhook_app.service - INFO - Sending message to 918265057464: good evening
+2024-12-25 19:06:29,808 - webhook_app.service - ERROR - An error occurred while sending the message.
+Traceback (most recent call last):
+  File "D:\Webhook3\venv\lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "D:\Webhook3\venv\lib\site-packages\httpx\_transports\default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+  File "D:\Webhook3\venv\lib\site-packages\httpcore\_async\connection_pool.py", line 207, in handle_async_request
+    raise UnsupportedProtocol(
+httpcore.UnsupportedProtocol: Request URL is missing an 'http://' or 'https://' protocol.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Webhook3\webhook_Whatsapp\webhook_app\service.py", line 57, in send_message
+    response = await client.post(self.BASE_URL, json=payload, headers=self.headers)
+  File "D:\Webhook3\venv\lib\site-packages\httpx\_client.py", line 1859, in post
+    return await self.request(
+  File "D:\Webhook3\venv\lib\site-packages\httpx\_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+  File "D:\Webhook3\venv\lib\site-packages\httpx\_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+  File "D:\Webhook3\venv\lib\site-packages\httpx\_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+  File "D:\Webhook3\venv\lib\site-packages\httpx\_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+  File "D:\Webhook3\venv\lib\site-packages\httpx\_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+  File "D:\Webhook3\venv\lib\site-packages\httpx\_transports\default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+  File "C:\Users\Jaydeep Biswas\AppData\Local\Programs\Python\Python310\lib\contextlib.py", line 153, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "D:\Webhook3\venv\lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.UnsupportedProtocol: Request URL is missing an 'http://' or 'https://' protocol.
+2024-12-25 19:06:29,828 - webhook_app.views - ERROR - Failed to send message to 918265057464: {'error': "Request URL is missing an 'http://' or 'https://' protocol."}
+2024-12-25 19:07:46,268 - webhook_app.views - INFO - Calling send_message function asynchronously
+2024-12-25 19:07:46,269 - webhook_app.views - INFO - Preparing to send message to: 919322015008
+2024-12-25 19:07:46,270 - webhook_app.views - INFO - Preparing to send message to: 918265057464
+2024-12-25 19:07:46,271 - webhook_app.service - INFO - Sending message to 919322015008: good evening everyone
+2024-12-25 19:07:46,415 - webhook_app.service - INFO - Sending message to 918265057464: good evening everyone
+2024-12-25 19:07:47,331 - webhook_app.service - INFO - Message successfully sent to 919322015008
+2024-12-25 19:07:47,397 - webhook_app.service - INFO - Message successfully sent to 918265057464
+2024-12-25 19:07:48,094 - webhook_app.views - INFO - Received message data: {
+  "object": "whatsapp_business_account",
+  "entry": [
+    {
+      "id": "516347191559718",
+      "changes": [
+        {
+          "value": {
+            "messaging_product": "whatsapp",
+            "metadata": {
+              "display_phone_number": "15551708236",
+              "phone_number_id": "552952211226957"
+            },
+            "statuses": [
+              {
+                "id": "wamid.HBgMOTE4MjY1MDU3NDY0FQIAERgSM0Q1QzUwNUI5NDk2NkM3OTc4AA==",
+                "status": "sent",
+                "timestamp": "1735133867",
+                "recipient_id": "918265057464",
+                "conversation": {
+                  "id": "74a36a297f0d5f87b245a3b39a7a4e13",
+                  "expiration_timestamp": "1735219680",
+                  "origin": {
+                    "type": "service"
+                  }
+                },
+                "pricing": {
+                  "billable": true,
+                  "pricing_model": "CBP",
+                  "category": "service"
+                }
+              }
+            ]
+          },
+          "field": "messages"
+        }
+      ]
+    }
+  ]
+}
+2024-12-25 19:07:48,401 - webhook_app.views - INFO - Received message data: {
+  "object": "whatsapp_business_account",
+  "entry": [
+    {
+      "id": "516347191559718",
+      "changes": [
+        {
+          "value": {
+            "messaging_product": "whatsapp",
+            "metadata": {
+              "display_phone_number": "15551708236",
+              "phone_number_id": "552952211226957"
+            },
+            "statuses": [
+              {
+                "id": "wamid.HBgMOTE5MzIyMDE1MDA4FQIAERgSRkRCRTI0REM0NDhBMDU1MjM4AA==",
+                "status": "failed",
+                "timestamp": "1735133867",
+                "recipient_id": "919322015008",
+                "errors": [
+                  {
+                    "code": 131047,
+                    "title": "Re-engagement message",
+                    "message": "Re-engagement message",
+                    "error_data": {
+                      "details": "Message failed to send because more than 24 hours have passed since the customer last replied to this number."
+                    },
+                    "href": "https://developers.facebook.com/docs/whatsapp/cloud-api/support/error-codes/"
+                  }
+                ]
+              }
+            ]
+          },
+          "field": "messages"
+        }
+      ]
+    }
+  ]
+}
+2024-12-25 19:08:06,795 - webhook_app.views - INFO - Received message data: {
+  "object": "whatsapp_business_account",
+  "entry": [
+    {
+      "id": "516347191559718",
+      "changes": [
+        {
+          "value": {
+            "messaging_product": "whatsapp",
+            "metadata": {
+              "display_phone_number": "15551708236",
+              "phone_number_id": "552952211226957"
+            },
+            "statuses": [
+              {
+                "id": "wamid.HBgMOTE4MjY1MDU3NDY0FQIAERgSM0Q1QzUwNUI5NDk2NkM3OTc4AA==",
+                "status": "delivered",
+                "timestamp": "1735133886",
+                "recipient_id": "918265057464",
+                "conversation": {
+                  "id": "74a36a297f0d5f87b245a3b39a7a4e13",
+                  "origin": {
+                    "type": "service"
+                  }
+                },
+                "pricing": {
+                  "billable": true,
+                  "pricing_model": "CBP",
+                  "category": "service"
+                }
+              }
+            ]
+          },
+          "field": "messages"
+        }
+      ]
+    }
+  ]
+}
+2024-12-25 19:08:22,889 - webhook_app.views - INFO - Received message data: {
+  "object": "whatsapp_business_account",
+  "entry": [
+    {
+      "id": "516347191559718",
+      "changes": [
+        {
+          "value": {
+            "messaging_product": "whatsapp",
+            "metadata": {
+              "display_phone_number": "15551708236",
+              "phone_number_id": "552952211226957"
+            },
+            "statuses": [
+              {
+                "id": "wamid.HBgMOTE5NDA3OTEzMDgzFQIAERgSODdFNTU0QUQ0RDBDRUM1MTEzAA==",
+                "status": "read",
+                "timestamp": "1735031499",
+                "recipient_id": "919407913083"
+              }
+            ]
+          },
+          "field": "messages"
+        }
+      ]
+    }
+  ]
+}
+2024-12-25 19:09:36,821 - webhook_app.views - INFO - Calling send_message function asynchronously
+2024-12-25 19:09:36,821 - webhook_app.views - INFO - Preparing to send message to: 919322015008
+2024-12-25 19:09:36,821 - webhook_app.views - INFO - Preparing to send message to: 918265057464
+2024-12-25 19:09:36,823 - webhook_app.views - INFO - Preparing to send message to: 919407913083
+2024-12-25 19:09:36,823 - webhook_app.service - INFO - Sending message to 919322015008: Hello everyone
+2024-12-25 19:09:36,844 - webhook_app.service - INFO - Sending message to 918265057464: Hello everyone
+2024-12-25 19:09:36,858 - webhook_app.service - INFO - Sending message to 919407913083: Hello everyone
+2024-12-25 19:09:37,717 - webhook_app.service - INFO - Message successfully sent to 919322015008
+2024-12-25 19:09:37,865 - webhook_app.service - INFO - Message successfully sent to 918265057464
+2024-12-25 19:09:38,148 - webhook_app.service - INFO - Message successfully sent to 919407913083
+2024-12-25 19:09:38,617 - webhook_app.views - INFO - Received message data: {
+  "object": "whatsapp_business_account",
+  "entry": [
+    {
+      "id": "516347191559718",
+      "changes": [
+        {
+          "value": {
+            "messaging_product": "whatsapp",
+            "metadata": {
+              "display_phone_number": "15551708236",
+              "phone_number_id": "552952211226957"
+            },
+            "statuses": [
+              {
+                "id": "wamid.HBgMOTE5MzIyMDE1MDA4FQIAERgSQzZCQkE3NUEyQkRBRUFGMTc1AA==",
+                "status": "failed",
+                "timestamp": "1735133977",
+                "recipient_id": "919322015008",
+                "errors": [
+                  {
+                    "code": 131047,
+                    "title": "Re-engagement message",
+                    "message": "Re-engagement message",
+                    "error_data": {
+                      "details": "Message failed to send because more than 24 hours have passed since the customer last replied to this number."
+                    },
+                    "href": "https://developers.facebook.com/docs/whatsapp/cloud-api/support/error-codes/"
+                  }
+                ]
+              }
+            ]
+          },
+          "field": "messages"
+        }
+      ]
+    }
+  ]
+}
+2024-12-25 19:09:38,909 - webhook_app.views - INFO - Received message data: {
+  "object": "whatsapp_business_account",
+  "entry": [
+    {
+      "id": "516347191559718",
+      "changes": [
+        {
+          "value": {
+            "messaging_product": "whatsapp",
+            "metadata": {
+              "display_phone_number": "15551708236",
+              "phone_number_id": "552952211226957"
+            },
+            "statuses": [
+              {
+                "id": "wamid.HBgMOTE4MjY1MDU3NDY0FQIAERgSMTk2REZCRjdEQjhCOUZBODFGAA==",
+                "status": "sent",
+                "timestamp": "1735133977",
+                "recipient_id": "918265057464",
+                "conversation": {
+                  "id": "74a36a297f0d5f87b245a3b39a7a4e13",
+                  "expiration_timestamp": "1735219680",
+                  "origin": {
+                    "type": "service"
+                  }
+                },
+                "pricing": {
+                  "billable": true,
+                  "pricing_model": "CBP",
+                  "category": "service"
+                }
+              }
+            ]
+          },
+          "field": "messages"
+        }
+      ]
+    }
+  ]
+}
+2024-12-25 19:09:39,415 - webhook_app.views - INFO - Received message data: {
+  "object": "whatsapp_business_account",
+  "entry": [
+    {
+      "id": "516347191559718",
+      "changes": [
+        {
+          "value": {
+            "messaging_product": "whatsapp",
+            "metadata": {
+              "display_phone_number": "15551708236",
+              "phone_number_id": "552952211226957"
+            },
+            "statuses": [
+              {
+                "id": "wamid.HBgMOTE5NDA3OTEzMDgzFQIAERgSNkIzQjY3NjQzQjQ5REMyNzVGAA==",
+                "status": "sent",
+                "timestamp": "1735133978",
+                "recipient_id": "919407913083",
+                "conversation": {
+                  "id": "6654bf9880ee3fab4f2571d25d287bca",
+                  "expiration_timestamp": "1735190580",
+                  "origin": {
+                    "type": "service"
+                  }
+                },
+                "pricing": {
+                  "billable": true,
+                  "pricing_model": "CBP",
+                  "category": "service"
+                }
+              }
+            ]
+          },
+          "field": "messages"
+        }
+      ]
+    }
+  ]
+}
+2024-12-25 19:09:39,708 - webhook_app.views - INFO - Received message data: {
+  "object": "whatsapp_business_account",
+  "entry": [
+    {
+      "id": "516347191559718",
+      "changes": [
+        {
+          "value": {
+            "messaging_product": "whatsapp",
+            "metadata": {
+              "display_phone_number": "15551708236",
+              "phone_number_id": "552952211226957"
+            },
+            "statuses": [
+              {
+                "id": "wamid.HBgMOTE4MjY1MDU3NDY0FQIAERgSMTk2REZCRjdEQjhCOUZBODFGAA==",
+                "status": "delivered",
+                "timestamp": "1735133978",
+                "recipient_id": "918265057464",
+                "conversation": {
+                  "id": "74a36a297f0d5f87b245a3b39a7a4e13",
+                  "origin": {
+                    "type": "service"
+                  }
+                },
+                "pricing": {
+                  "billable": true,
+                  "pricing_model": "CBP",
+                  "category": "service"
+                }
+              }
+            ]
+          },
+          "field": "messages"
+        }
+      ]
+    }
+  ]
+}
+2024-12-25 19:09:40,884 - webhook_app.views - INFO - Received message data: {
+  "object": "whatsapp_business_account",
+  "entry": [
+    {
+      "id": "516347191559718",
+      "changes": [
+        {
+          "value": {
+            "messaging_product": "whatsapp",
+            "metadata": {
+              "display_phone_number": "15551708236",
+              "phone_number_id": "552952211226957"
+            },
+            "statuses": [
+              {
+                "id": "wamid.HBgMOTE5NDA3OTEzMDgzFQIAERgSNkIzQjY3NjQzQjQ5REMyNzVGAA==",
+                "status": "delivered",
+                "timestamp": "1735133979",
+                "recipient_id": "919407913083",
+                "conversation": {
+                  "id": "6654bf9880ee3fab4f2571d25d287bca",
+                  "origin": {
+                    "type": "service"
+                  }
+                },
+                "pricing": {
+                  "billable": true,
+                  "pricing_model": "CBP",
+                  "category": "service"
+                }
+              }
+            ]
+          },
+          "field": "messages"
+        }
+      ]
+    }
+  ]
+}
